@@ -1,3 +1,10 @@
+/*
+ *         IMPORTANT! 
+ * You must always purge the CDN cache when updating this file!
+ * Browse to this URL:
+ * https://purge.jsdelivr.net/gh/fiworks/cdn@main/css/thoughtspot-embed.css
+ */
+
 :root 
 {
     --ts-var-root-font-family: 'Inter', Helvetica, Arial, sans-serif;
@@ -62,8 +69,9 @@ body
     font-variant-numeric: tabular-nums !important;    
 }
 
-/* Liveboard Headers*/
-.pinboard-header-module__headerTitleCompact
+/* Liveboards - Headers and liveboard names in grid. */
+.pinboard-header-module__headerTitleCompact,
+.typography-module__content-label-subhead
 {
     font-weight: 500;
 }
